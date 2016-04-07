@@ -10,6 +10,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sass-rails', '~> 5.0'
 
+gem 'devise', '~> 3.5', '>= 3.5.6'
+
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
