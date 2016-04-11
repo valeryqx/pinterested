@@ -11,17 +11,17 @@
     </div>
   <% end %>
 
-  <div class="form-group">
+  <div class="field">
     <%= f.label :description %><br>
-    <%= f.text_field :description, class: 'form-control' %>
+    <%= f.text_field :description %>
   </div>
 
-  <div class="form-group">
+  <div class="field">
     <%= f.label :image %>
-    <%= f.file_field :image, class: "form-control" %>
+    <%= f.file_field :image %>
   </div>
 
   <div class="actions">
-    <%= f.submit 'Create Pin', class: 'btn btn-info' %>
+    <%= f.submit %>
   </div>
 <% end %>
